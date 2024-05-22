@@ -29,6 +29,9 @@ function Navbar() {
             <li>
               <a href="/use-state">Hook useState</a>
             </li>
+            <li>
+              <a href="/flux">Flux</a>
+            </li>
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">daisyUI</a>
@@ -40,6 +43,9 @@ function Navbar() {
           </li>
           <li>
             <a href="/use-state">Hook useState</a>
+          </li>
+          <li>
+            <a href="/flux">Flux</a>
           </li>
         </ul>
       </div>

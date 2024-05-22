@@ -5,6 +5,7 @@ import "./App.css";
 import JsxTheorie from "./view/JsxTheorie";
 import Navbar from "./components/Navbar";
 import HookUseState from "./view/HookUseState";
+import Flux from "./view/Flux";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
               <Route path="/" element={<h1>Page d'accueil</h1>} />
               <Route path="/jsx" element={<JsxTheorie />} />
               <Route path="/use-state" element={<HookUseState/>} />
+              <Route path="/flux" element={<Flux/>}/>
             </Routes>
           </BrowserRouter>
         </div>
