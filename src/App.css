@@ -1,0 +1,39 @@
+html, body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#root {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app {
+    width: 100%;
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.app-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    flex: 1;
+    margin: 100px 5% 0;
+}
