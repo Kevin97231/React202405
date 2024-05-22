@@ -35,6 +35,9 @@ function Navbar() {
             <li>
               <a href="/formulaire">Formulaire</a>
             </li>
+            <li>
+              <a href="/exercice">Exercice</a>
+            </li>
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">daisyUI</a>
@@ -52,6 +55,9 @@ function Navbar() {
           </li>
           <li>
             <a href="/formulaire">Formulaire</a>
+          </li>
+          <li>
+            <a href="/exercice">Exercice</a>
           </li>
         </ul>
       </div>
