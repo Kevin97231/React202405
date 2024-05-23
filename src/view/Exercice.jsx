@@ -34,6 +34,7 @@ export const Exercice = () => {
 
             <pre>
                 {`
+<<<<<<< HEAD
                     1)  Utiliser un composant parent et deux composants enfants (il est possible d'utiliser un seul composant enfant qu'on appellera 2 fois)
 
                         Les deux composants enfant afficheront un tableau contenant les colonnes 'nom', 'prix' et 'quantité'. Le premier enfant affichera UNIQUEMENT les fruits,
@@ -45,6 +46,19 @@ export const Exercice = () => {
 
                     3)  Ajouter une barre de recherche permettant de faire une recherche sur le 'name' sur l'ensemble du tableau
                 `}
+=======
+                  1)  Utiliser un composant parent et deux composants enfants (il est possible d'utiliser un seul composant enfant qu'on appellera 2 fois)
+
+                      Les deux composants enfant afficheront un tableau contenant les colonnes 'nom', 'prix' et 'quantité'. Le premier enfant affichera UNIQUEMENT les fruits,
+                      le second uniquement les légumes
+
+                      (Utiliser la fonction filter() pour trier)
+
+                  2)  Ajouter une case à cocher permettant de masquer / afficher les produits qui ne sont pas en stock (s'aider de l'attribut 'number' représentant la quantité)
+
+                  3)  Ajouter une barre de recherche permettant de faire une recherche sur le 'name' sur l'ensemble du tableau
+              `}
+>>>>>>> f16932fa79b3b7868661fde788b4bdd89be6d5f9
             </pre>
         </>
     );
