@@ -10,6 +10,8 @@ import Formulaire from "./view/Formulaire";
 import { Exercice } from "./view/Exercice";
 import HookUseEffect from "./view/HookUseEffect";
 import LifeCycle from "./view/LifeCycle";
+import { RequestApi } from "./view/RequestApi";
+import { CustomHook } from "./view/CustomHook";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
               <Route path='/exercice' element={<Exercice/>} />
               <Route path='/use-effect' element={<HookUseEffect/>} />
               <Route path='/cycle-de-vie' element={<LifeCycle/>} />
+              <Route path='/requettes-api' element={<RequestApi/>} />
+              <Route path='/hook-personnalise' element={<CustomHook/>} />
             </Routes>
           </BrowserRouter>
         </div>

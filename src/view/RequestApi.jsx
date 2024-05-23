@@ -1,3 +1,5 @@
+import { RequestEx } from "../components/RequestEx";
+
 /* eslint-disable react/no-unescaped-entities */
 export const RequestApi = () => {
   return (
@@ -48,8 +50,10 @@ export const RequestApi = () => {
                 <strong>DELETE: </strong> http://localhost:3001/products/id
             </li>
         </ul>
-        
 
+        <div>
+            <RequestEx/>
+        </div>
     </>
   );
 };

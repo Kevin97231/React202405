@@ -44,6 +44,12 @@ function Navbar() {
             <li>
               <a href="/cycle-de-vie">Cycle de vie</a>
             </li>
+            <li>
+              <a href="/requettes-api">Requêtes API</a>
+            </li>
+            <li>
+              <a href="/hook-personnalise">Hook personnalisé</a>
+            </li>
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">daisyUI</a>
@@ -70,6 +76,12 @@ function Navbar() {
           </li>
           <li>
             <a href="/cycle-de-vie">Cycle de vie</a>
+          </li>
+          <li>
+            <a href="/requettes-api">Requêtes API</a>
+          </li>
+          <li>
+            <a href="/hook-personnalise">Hook personnalisé</a>
           </li>
         </ul>
       </div>
