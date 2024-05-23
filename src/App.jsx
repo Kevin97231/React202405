@@ -12,6 +12,7 @@ import HookUseEffect from "./view/HookUseEffect";
 import LifeCycle from "./view/LifeCycle";
 import { RequestApi } from "./view/RequestApi";
 import { CustomHook } from "./view/CustomHook";
+import { ExerciceAPI } from "./view/ExerciceAPI";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
               <Route path='/cycle-de-vie' element={<LifeCycle/>} />
               <Route path='/requettes-api' element={<RequestApi/>} />
               <Route path='/hook-personnalise' element={<CustomHook/>} />
+              <Route path='/exercice-api' element={<ExerciceAPI/>} />
             </Routes>
           </BrowserRouter>
         </div>
