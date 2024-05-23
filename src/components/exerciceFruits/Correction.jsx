@@ -17,7 +17,6 @@ function Correction () {
     
       const [checked, setChecked] = useState(false)
       const [search, setSearch] = useState("")
-      
 
       const handleCheckbox = () => {
         setChecked(!checked)

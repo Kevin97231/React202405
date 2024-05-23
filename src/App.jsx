@@ -8,6 +8,8 @@ import HookUseState from "./view/HookUseState";
 import Flux from "./view/Flux";
 import Formulaire from "./view/Formulaire";
 import { Exercice } from "./view/Exercice";
+import HookUseEffect from "./view/HookUseEffect";
+import LifeCycle from "./view/LifeCycle";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
               <Route path="/flux" element={<Flux/>}/>
               <Route path='/formulaire' element={<Formulaire/>} />
               <Route path='/exercice' element={<Exercice/>} />
+              <Route path='/use-effect' element={<HookUseEffect/>} />
+              <Route path='/cycle-de-vie' element={<LifeCycle/>} />
             </Routes>
           </BrowserRouter>
         </div>

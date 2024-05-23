@@ -38,6 +38,12 @@ function Navbar() {
             <li>
               <a href="/exercice">Exercice</a>
             </li>
+            <li>
+              <a href="/use-effect">Hook useEffect</a>
+            </li>
+            <li>
+              <a href="/cycle-de-vie">Cycle de vie</a>
+            </li>
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">daisyUI</a>
@@ -58,6 +64,12 @@ function Navbar() {
           </li>
           <li>
             <a href="/exercice">Exercice</a>
+          </li>
+          <li>
+            <a href="/use-effect">Hook useEffect</a>
+          </li>
+          <li>
+            <a href="/cycle-de-vie">Cycle de vie</a>
           </li>
         </ul>
       </div>
