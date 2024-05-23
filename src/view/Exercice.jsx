@@ -1,3 +1,5 @@
+import Correction from "../components/exerciceFruits/Correction";
+
 export const Exercice = () => {
   return (
     <>
@@ -29,6 +31,9 @@ export const Exercice = () => {
                     3)  Ajouter une barre de recherche permettant de faire une recherche sur le 'name' sur l'ensemble du tableau
                 `}
       </pre>
+    
+    <Correction/>
+
     </>
   );
 };
