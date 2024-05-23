@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 // eslint-disable-next-line react/prop-types
-function ListProduct({ title, products }) {
+function ListProduct({ title, products, afficherHorsStock, search }) {
   
     return (
     <>
@@ -15,7 +15,13 @@ function ListProduct({ title, products }) {
           </tr>
         </thead>
         <tbody>
-          {products.map(
+          { products
+          .filter( product => ( 
+            afficherHorsStock ? true : product.number > 0 )
+            // && (product.name.includes(search))
+            && (product.name.toLowerCase().includes(search.toLowerCase()))
+          )
+          .map(
             (product) => (
               <tr key={product.name}>
                 <td>{product.name}</td>
@@ -23,7 +29,7 @@ function ListProduct({ title, products }) {
                 <td>{product.number}</td>
               </tr>
             )
-          )}
+          ) }
         </tbody>
       </table>
     </>
