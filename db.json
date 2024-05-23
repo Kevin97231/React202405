@@ -1,0 +1,137 @@
+{
+    "products": [
+      {
+        "name": "Zucchiniii",
+        "price": "5",
+        "number": "6",
+        "category": "",
+        "id": "6"
+      },
+      {
+        "name": "Poire",
+        "price": "1",
+        "number": "1000",
+        "category": "Fruits",
+        "id": "66d2"
+      },
+      {
+        "name": "Pomme",
+        "price": "5",
+        "number": "6",
+        "category": "Fruits",
+        "id": "f774"
+      },
+      {
+        "id": "cb03",
+        "category": "test",
+        "name": "test",
+        "number": "12",
+        "price": "15.00"
+      },
+      {
+        "name": "goyave",
+        "price": "10",
+        "number": "2",
+        "category": "goyave",
+        "id": "4e79"
+      },
+      {
+        "id": "0d1c",
+        "category": "Fruits",
+        "name": "mangue",
+        "number": "15",
+        "price": "2"
+      },
+      {
+        "name": "mango",
+        "price": "7",
+        "number": "5",
+        "category": "Fruits",
+        "id": "b5c1"
+      },
+      {
+        "name": "bananeur",
+        "price": "8",
+        "number": "15",
+        "category": "Fruits",
+        "id": "4ae1"
+      },
+      {
+        "name": "Banane",
+        "price": "3",
+        "number": "15",
+        "category": "Vegetables",
+        "id": "ec50"
+      },
+      {
+        "name": "TestNumberrrrr",
+        "price": "2",
+        "number": 15,
+        "category": "Fruits",
+        "id": "8061"
+      },
+      {
+        "id": "7e0d",
+        "category": "Fruits",
+        "name": "TestNumber",
+        "number": 15,
+        "price": "2"
+      },
+      {
+        "id": "b9cb",
+        "category": "Fruits",
+        "name": "TestNumber",
+        "number": 15,
+        "price": "2"
+      },
+      {
+        "id": "24e4",
+        "category": "Vegetables",
+        "name": "Banane",
+        "number": 15,
+        "price": 1.2
+      },
+      {
+        "name": "Bananeee",
+        "price": "1",
+        "number": 15,
+        "category": "Vegetables",
+        "id": "a564"
+      },
+      {
+        "name": "Pomme",
+        "price": "1",
+        "number": "15",
+        "category": "Fruits",
+        "id": "0095"
+      },
+      {
+        "name": "Zucchini",
+        "price": "8",
+        "number": "6",
+        "category": "Vegetables",
+        "id": "43bf"
+      },
+      {
+        "id": "13c7",
+        "category": "Vegetables",
+        "name": "Zucchini",
+        "number": 7,
+        "price": null
+      },
+      {
+        "id": "f2af",
+        "category": "Vegetables",
+        "name": "Zucchini",
+        "number": 7,
+        "price": null
+      },
+      {
+        "id": "29e1",
+        "category": "",
+        "name": "Test",
+        "number": 15,
+        "price": 26
+      }
+    ]
+  }

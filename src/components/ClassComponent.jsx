@@ -29,6 +29,8 @@ export class ClassComponent extends Component {
       incrementCount() {
         // Utilisation de setState pour mettre à jour l'état local count
         // prevState représente l'état précédent du composant
+
+        console.log("Class Component updated")
         this.setState((prevState) => ({
           count: prevState.count + 1,
         }));
