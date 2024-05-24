@@ -53,6 +53,9 @@ function Navbar() {
             <li>
               <a href="/exercice-api">Exercice API</a>
             </li>
+            <li>
+              <a href="/use-memo">Hook useMemo</a>
+            </li>
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">daisyUI</a>
@@ -88,6 +91,9 @@ function Navbar() {
           </li>
           <li>
             <a href="/exercice-api">Exercice API</a>
+          </li>
+          <li>
+            <a href="/use-memo">Hook useMemo</a>
           </li>
         </ul>
       </div>
