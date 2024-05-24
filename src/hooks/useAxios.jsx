@@ -47,13 +47,14 @@ export const useAxios = () => {
     const urlPut = `${url}/${id}`;
     setLoading(true);
 
-    return api.put(urlPut, data).then((response) => {
+    return api.put(urlPut, data)
+    .then((response) => {
       setLoading(false);
-      return response.data.catch((err) => {
+      return response.data })
+      .catch((err) => {
         setLoading(false);
         setError(err);
         throw err;
-      });
     });
   };
 

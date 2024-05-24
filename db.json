@@ -1,10 +1,10 @@
 {
   "products": [
     {
-      "name": "Zucchiniii",
-      "price": "5",
+      "category": "Vegetables",
+      "name": "Zucchini",
       "number": "6",
-      "category": "",
+      "price": "5",
       "id": "6"
     },
     {
@@ -22,11 +22,11 @@
       "id": "f774"
     },
     {
-      "id": "cb03",
-      "category": "test",
-      "name": "test",
+      "name": "React-hook-form",
+      "price": "15.00",
       "number": "12",
-      "price": "15.00"
+      "category": "test",
+      "id": "cb03"
     },
     {
       "name": "goyave",
@@ -125,13 +125,6 @@
       "name": "Zucchini",
       "number": 7,
       "price": null
-    },
-    {
-      "id": "29e1",
-      "category": "",
-      "name": "Test",
-      "number": 15,
-      "price": 26
     },
     {
       "id": "e72e",
