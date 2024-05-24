@@ -1,7 +1,17 @@
+import { useNavigate } from "react-router-dom";
+
 /* eslint-disable react/prop-types */
-export const ProductCard = ({product}) => {
-  return (
-    <div className="gap-2 p-2 bg-black border shadow-lg">
+export const ProductCard = ({product = {}}) => {
+  
+    const navigate = useNavigate()
+
+
+    const goToProduct = () => {
+        navigate("/dawan-store/" + product.id)
+    }
+  
+    return (
+    <div onClick={goToProduct} className="gap-2 p-2 bg-black border shadow-lg">
         <p className="font-semibold">{product.category}</p>
         <div className="flex gap-5">
             <img

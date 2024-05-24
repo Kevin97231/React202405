@@ -17,6 +17,7 @@ import { ExerciceAPI } from "./view/ExerciceAPI";
 import { HookUseMemo } from "./view/HookUseMemo";
 import { PageNotFound } from "./view/PageNotFound";
 import { DawanStore } from "./view/DawanStore";
+import { ProductDetail } from "./view/ProductDetail";
 
 function App() {
   const router = createBrowserRouter([
@@ -76,6 +77,10 @@ function App() {
         {
           path: "/dawan-store",
           element: <DawanStore />,
+        },
+        {
+          path: "dawan-store/:id",
+          element: <ProductDetail/>,
         },
         {
           path: "*",
