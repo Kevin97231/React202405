@@ -17,15 +17,15 @@ export const useAxios = () => {
     setLoading(true);
     return api
       .get(url)
-      .then((response) => {
-        setLoading(false);
-        return response.data;
-      })
-      .catch((err) => {
-        setLoading(false);
-        setError(err);
-        throw err;
-      });
+        .then((response) => {
+          setLoading(false);
+          return response.data;
+        })
+        .catch((err) => {
+          setLoading(false);
+          setError(err);
+          throw err;
+        });
   };
 
   const post = (data) => {

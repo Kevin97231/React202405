@@ -1,3 +1,8 @@
+import { HeaderItem } from "./HeaderItem";
+
+// Pour plus de performance, il est conseillé d'utilisé les 'Link' de react-router-dom,
+// plutôt que les liens <a></a> comme en HMTL / CSS classique
+
 function Navbar() {
   return (
     <div className="navbar bg-base-100">
@@ -63,37 +68,42 @@ function Navbar() {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a href="/">Accueil</a>
+            <HeaderItem href={"/"}>Accueil</HeaderItem>
           </li>
           <li>
-            <a href="/use-state">Hook useState</a>
+            <HeaderItem href={"/use-state"}>Use State</HeaderItem>
           </li>
           <li>
-            <a href="/flux">Flux</a>
+            <HeaderItem href={"/flux"}>Flux</HeaderItem>
           </li>
           <li>
-            <a href="/formulaire">Formulaire</a>
+            <HeaderItem href={"/formulaire"}>Formulaire</HeaderItem>
           </li>
           <li>
-            <a href="/exercice">Exercice</a>
+            <HeaderItem href={"/exercice"}>Exercice</HeaderItem>
           </li>
           <li>
-            <a href="/use-effect">Hook useEffect</a>
+            <HeaderItem href={"/use-effect"}>Hook useEffect</HeaderItem>
           </li>
           <li>
-            <a href="/cycle-de-vie">Cycle de vie</a>
+            <HeaderItem href={"/cycle-de-vie"}>Cycle de vie</HeaderItem>
           </li>
           <li>
-            <a href="/requettes-api">Requêtes API</a>
+            <HeaderItem href={"/requettes-api"}>Requêtes API</HeaderItem>
           </li>
           <li>
-            <a href="/hook-personnalise">Hook personnalisé</a>
+            <HeaderItem href={"/hook-personnalise"}>
+              Hook personnalisé
+            </HeaderItem>
           </li>
           <li>
-            <a href="/exercice-api">Exercice API</a>
+            <HeaderItem href={"/exercice-api"}>Exercice API</HeaderItem>
           </li>
           <li>
-            <a href="/use-memo">Hook useMemo</a>
+            <HeaderItem href={"/use-memo"}>Hook useMemo</HeaderItem>
+          </li>
+          <li>
+            <HeaderItem href={"/dawan-store"}>Dawan store</HeaderItem>
           </li>
         </ul>
       </div>

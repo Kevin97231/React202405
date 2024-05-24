@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import JsxTheorie from "./view/JsxTheorie";
 import Navbar from "./components/Navbar";
@@ -16,13 +16,14 @@ import { CustomHook } from "./view/CustomHook";
 import { ExerciceAPI } from "./view/ExerciceAPI";
 import { HookUseMemo } from "./view/HookUseMemo";
 import { PageNotFound } from "./view/PageNotFound";
+import { DawanStore } from "./view/DawanStore";
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
       element: <Root />,
-      errorElement: <PageNotFound/>,
+      // errorElement: <PageNotFound/>,
       children: [
         {
           path: "",
@@ -72,6 +73,14 @@ function App() {
           path: "/use-memo",
           element: <HookUseMemo />,
         },
+        {
+          path: "/dawan-store",
+          element: <DawanStore />,
+        },
+        {
+          path: "*",
+          element: <PageNotFound />,
+        }
       ],
     },
   ]);
